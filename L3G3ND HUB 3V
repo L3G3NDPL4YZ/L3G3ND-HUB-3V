@@ -1,0 +1,215 @@
+local _, library = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Osmium/main/OsmiumLibrary.lua")))
+
+local window = library:CreateWindow("L3G3ND HUB 3V")
+
+local state = window:GetCurrentState()
+
+if state == library.WindowState.Destroyed then
+    print("Window closed")
+end
+
+local Main = window:CreateTab("Main")
+
+
+local button = Main:CreateButton("L3G3ND HUB 2V", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/L3G3NDPL4YZ/Legend-Hub-2V/main/LegendPlayz%20GUI%202v",true))()
+end)
+
+local button = Main:CreateButton("Universal HUB 2V", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
+end)
+
+local button = Main:CreateButton("Infinite Yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local button = Main:CreateButton("Universal Autoclicker", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/ROBLOX_AutoClicker"))()
+end)
+
+local button = Main:CreateButton("Change Speed and Jump", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 80 -- Change number for different speed
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 80 -- change number for different jump power
+end)
+
+local _, library = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Osmium/main/OsmiumLibrary.lua")))
+
+local window = library:CreateWindow("L3G3ND HUB 3V")
+
+local state = window:GetCurrentState()
+
+if state == library.WindowState.Destroyed then
+    print("Window closed")
+end
+
+local Main = window:CreateTab("Main")
+
+
+local button = Main:CreateButton("L3G3ND HUB 2V", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/L3G3NDPL4YZ/Legend-Hub-2V/main/LegendPlayz%20GUI%202v",true))()
+end)
+
+local button = Main:CreateButton("Universal HUB 2V", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
+end)
+
+local button = Main:CreateButton("Infinite Yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local button = Main:CreateButton("Universal Autoclicker", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/ROBLOX_AutoClicker"))()
+end)
+
+local button = Main:CreateButton("Fly", function()
+    -- Press "E" to fly and unfly
+-- You have to re-apply the script if you die
+loadstring(game:HttpGet("https://pastebin.com/raw/7rXZ9VNc", true))()
+end)
+
+local button = Main:CreateButton("UNIVERSAL LOADER", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/madonchik123/USL/main/main.lua"))()
+end)
+
+local button = Main:CreateButton("PIG HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iPigTW/PigHub/main/pighub.lua",true))()
+end)
+
+local button = Main:CreateButton("Universal 1V", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+end)
+
+local button = Main:CreateButton("Zapped HUB", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Steveee11/Scripts/main/Zapped%20GUI'))()
+end)
+
+
+local Scripts = window:CreateTab("Scripts")
+
+
+local button = Scripts:CreateButton("Prison Life Gui 1V", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DylanIsAKingL/Lua-Scripts/main/Prison-Life-Give-All.lua"))()
+end)
+
+local button = Scripts:CreateButton("Prison Life Gui 2V", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua"))()
+end)
+
+local button = Scripts:CreateButton("Prison Life Gui 3V", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/wMagw9Cn", true))()
+end)
+
+local button = Scripts:CreateButton("Prison Life Gui 4V", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/lua-releases/main/scripts/prison-life-three.lua'))()
+end)
+
+local button = Scripts:CreateButton("Anime Fighting GUI 1V", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/Levi4Chan/Rblx-Scripts/main/AFS-New-Ui.lua")()
+end)
+
+local button = Scripts:CreateButton("Anime Fighting GUI 2V", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rblxscriptsnet/rblxhub/main/rblxhub.lua"))()
+end)
+
+local button = Scripts:CreateButton("Anime Fighting GUI 3V", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Woutt/FludexHub/main/login.lua"))()
+end)
+
+
+local Misc = window:CreateTab("Misc")
+
+
+local button = Misc:CreateButton("YUM HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/houza233/YumHub/main/Main.lua"))();
+end)
+
+local button = Misc:CreateButton("Nen fighting GUI 1v", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ericd71/NenFightingSim/main/NenFightingSimGUI'))()
+end)
+
+local button = Misc:CreateButton("Bubblegum Clicker GUI 1V", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/CrazyHub123/CrazyHubScripts/main/CrazyHubMain.lua'))()
+end)
+
+local button = Misc:CreateButton("FPS BOOSTER", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Faacts/Side/main/FpsBoost'))()
+end)
+
+
+local Admin = window:CreateTab("Admin")
+
+
+local button = Admin:CreateButton("REVIZ ADMIN", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/pyzjWNhk'))()
+end)
+
+local button = Admin:CreateButton("Unknown ADMIN", function()
+    loadstring(game:HttpGet("https://exploits.kapspire.com/main.lua"))();
+end)
+
+local button = Admin:CreateButton("Fates ADMIN", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+end)
+
+local button = Admin:CreateButton("Unlocks FREE ADMIN gamepass", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DohmBoyOG/Script-Dump/main/FreeADMIN_DohmScripts_Public.lua"))()
+end)
+
+local button = Admin:CreateButton("PRISON LIFE COMMANDS", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+local button = Admin:CreateButton("Seas Diff Chart Obby ADMIN", function()
+    game:GetService("ReplicatedStorage").AdminSword:FireServer()
+end)
+
+
+local FE = window:CreateTab("FE")
+
+local button = FE:CreateButton("FE UNKNOWN", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/yqMYKAdU",true))()
+end)
+
+local button = FE:CreateButton("Rizzer Gui", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/pPMRh5YJ"))()
+end)
+
+local button = FE:CreateButton("Pendulum HUB 2v", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+local button = FE:CreateButton("Fe NAMELESS", function()
+    loadstring(game:GetObjects("rbxassetid://5688101100")[1].Source)()
+end)
+
+local button = FE:CreateButton("FE SLASHER R6", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/sUFtwKeC'),true))()
+end)
+
+local button = FE:CreateButton("FE SLASHER R15", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/7QuD06HB'),true))()
+end)
+
+
+local Credits = window:CreateTab("Credits")
+
+
+local button = Credits:CreateButton("Legendary1511not/Legendary_1511new - roblox", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Faacts/Side/main/FpsBoost'))()
+end)
+
+local button = Credits:CreateButton("LegendPlayz2#6685 - discord", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Faacts/Side/main/FpsBoost'))()
+end)
+
+local button = Credits:CreateButton("Cat Script Showcaser - youtube", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Faacts/Side/main/FpsBoost'))()
+end)
+
+local button = Credits:CreateButton("K.u.r.t~ - tiktok", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Faacts/Side/main/FpsBoost'))()
+end)
+
+local button = Credits:CreateButton("ADD ME OR FOLLOW ME AND FUCKING THANKYOU! :D", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Faacts/Side/main/FpsBoost'))()
+end)
